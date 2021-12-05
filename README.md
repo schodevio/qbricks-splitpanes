@@ -1,29 +1,52 @@
-# qbricks_splitpanes
+# QBricks Splitpanes ![version](https://img.shields.io/badge/version-0.1-blue) [![MIT license](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/schodevio/qbricks-splitpanes/blob/main/LICENSE.md) [![Netlify Status](https://api.netlify.com/api/v1/badges/f35eaf00-427f-4c50-91ee-e93d8375adab/deploy-status)](https://app.netlify.com/sites/qbricks-splitpanes/deploys)
+A sample splitpanes feature made with Tabler.io & Vue 3.0
 
-## Project setup
+<a href="https://qbricks-splitpanes.netlify.app/" target="_blank">See demo</a>
+
+## Playground
+
+##### 1. Pull the repository
+
+```bash
+git clone https://github.com/schodevio/qbricks-splitpanes.git
 ```
+
+##### 2. Install packages
+
+Install all required dependencies.
+
+```bash
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
+##### 3. Run dev server
+
+```bash
 yarn serve
 ```
 
-### Compiles and minifies for production
-```
+##### 3. Run final build
+
+Run build to get final version.
+
+```bash
 yarn build
 ```
 
-### Run your unit tests
-```
-yarn test:unit
-```
 
-### Lints and fixes files
-```
-yarn lint
-```
+## Feedback
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Feel free to send us feedback. Feature requests are always welcome. If you wish to contribute, please take a quick look at the guidelines!
+
+If you notice any bugs in the app, see some code that can be improved, or have features you would like to be added, please create a bug report or a feature request!
+
+A good bug report must include the following four things:
+
+1. **The steps to reproduce the bug**: Give detailed steps on how to reproduce the problem
+2. **The expected behavior of the application**: It’s important to include the result you’re expecting, as it might differ from how the program was designed to work.
+3. **The observed behavior of the application**
+4. **Additional info**: ... like some links, images etc.
+
+## License
+
+[MIT License](https://github.com/schodevio/qbricks-splitpanes/blob/master/LICENSE.md)
