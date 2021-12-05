@@ -1,0 +1,29 @@
+.splitpanes.default-theme {
+  height: calc(100vh - 56px);
+
+  .splitpanes {
+    &__pane {
+      background: transparent;
+
+      &.is-closed {
+        &:not(:hover) {
+          width: 24px !important;
+        }
+      }
+
+      &.is-wide {
+        width: 100% !important;
+      }
+    }
+
+    &__toggler {
+      position: absolute;
+      transform: translate(-22px, 6px);
+      border-radius: 50px;
+
+      &.is-closed svg {
+        transform: rotateZ(180deg);
+      }
+    }
+  }
+}
